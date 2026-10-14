@@ -1,0 +1,8 @@
+{
+  "appId": "com.arman.restaurant",
+  "appName": "Restaurant App",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": true
+  }
+}

@@ -1,0 +1,17 @@
+.banner{
+
+    background: url(https://images.pexels.com/photos/9196094/pexels-photo-9196094.jpeg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+}
+
+.cover{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    opacity: 0.4;
+}
+
