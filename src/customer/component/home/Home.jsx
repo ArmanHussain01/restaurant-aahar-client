@@ -2,7 +2,7 @@ import React, { Suspense, lazy, memo, useEffect, useState } from "react";
 import "./Home.css";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllRestaurants } from "../../state/restaurant/Action";
-import RestaurantCart from "../Restaurant/RestaurantCart";
+import RestaurantCart from "../restaurant/RestaurantCart";
 
 const MultiItemCarousel = lazy(() => import("../home/MultiItemCarousel"));
 const MemoRestaurantCart = memo(RestaurantCart);

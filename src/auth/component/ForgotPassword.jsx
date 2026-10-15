@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import { TextField, Button, Typography, Alert, CircularProgress, Container, Paper } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { forgetPassword, resetAuthState } from "../State/resetOtp/Action";
+import { forgetPassword, resetAuthState } from "../state/resetOtp/Action";
 
 const validationSchema = Yup.object().shape({
   email: Yup.string().email("Invalid email").required("Email is required"),
