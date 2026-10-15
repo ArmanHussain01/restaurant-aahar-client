@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { verifyOtp, forgetPassword, resetAuthState } from "../State/resetOtp/Action";
+import { verifyOtp, forgetPassword, resetAuthState } from "../state/resetOtp/Action";
 
 const validationSchema = Yup.object().shape({
   otp: Yup.string()

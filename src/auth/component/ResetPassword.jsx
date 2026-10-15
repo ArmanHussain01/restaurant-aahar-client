@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { resetPassword, resetAuthState } from "../State/resetOtp/Action";
+import { resetPassword, resetAuthState } from "../state/resetOtp/Action";
 
 const initialValues = {
   password: "",

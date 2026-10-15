@@ -1,5 +1,5 @@
 import React from "react";
-import RestaurantCart from "../Restaurant/RestaurantCart";
+import RestaurantCart from "../restaurant/RestaurantCart";
 import { useSelector } from "react-redux";
 
 const Favorites = () => {
